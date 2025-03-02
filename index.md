@@ -5,3 +5,4 @@
 layout: home
 ---
 Work in progress.
+[test link]({{ site.basename }}/sites/test.html)
