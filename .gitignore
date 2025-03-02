@@ -1,0 +1,4 @@
+site/vendor*
+site/_posts/2025-03-02-welcome-to-jekyll.markdown
+site/.bundle/config
+site/Gemfile.lock
