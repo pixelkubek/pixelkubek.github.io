@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+* {
+    @apply font-mono dark:text-gray-400
+}
+
+a, a * {
+    @apply text-blue-900 dark:text-blue-600 hover:text-orange-500 hover:underline hover:font-bold;
+}
+
+.expandable-scroll-element {
+    @apply snap-start snap-always shrink-0 h-full
+}
+
+table tr,td {
+    @apply border p-px text-center shadow-md
+}
+
+.saturating {  
+    animation-name: saturateAnimation;
+    animation-timeline: view(block 100% 0%);
+}
+  
+@keyframes saturateAnimation {
+    from {
+        filter: saturate(0%);
+    }
+    to {
+        filter: saturate(100%);
+    }
+}

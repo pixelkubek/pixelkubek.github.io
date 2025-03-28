@@ -1,0 +1,1 @@
+This is a wask written as a part of a university course on Tailwind CSS.

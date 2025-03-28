@@ -1,8 +1,0 @@
-Gemfile.lock
-vendor/*
-.bundle/config
-.sass-cache/*
-_site/*
-_posts/2025-03-02-welcome-to-jekyll.markdown
-about.md
-scraper.py
